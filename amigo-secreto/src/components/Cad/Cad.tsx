@@ -17,7 +17,7 @@ interface Pessoa {
 
 export function Cad() {
 
-    const { Id, AddModal, EditModal, DeleteModal, DeleteId, EditModalData } = useContext(ContextInfos)
+    const { IdDelete, AddModal, EditModal, DeleteModal, DeleteId, EditModalData } = useContext(ContextInfos)
     const [pessoas, setPessoas] = useState<Pessoa[]>([]);
 
 
@@ -30,7 +30,7 @@ export function Cad() {
             .catch((error) => {
                 console.log(error);
             });
-    }, [pessoas, Id]);
+    }, [pessoas, IdDelete]);
 
 
     function handleAddModal() {
