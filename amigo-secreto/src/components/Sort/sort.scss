@@ -105,48 +105,9 @@
     }
 }
 
-@media (max-width: 768px) {
-
-    .sortDiv {
-        display: grid;
-        grid-template-rows: 2fr 1fr;
-
-        .sortAside {
-            table {
-                justify-self: center;
-                width: 90%;
-                overflow: auto;
-
-                td,
-                th {
-                    padding: 2px 3px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 500px) {
-    .sortDiv {
-        display: grid;
-        grid-template-rows: 2fr 1fr;
-
-        .sortAside {
-            margin-left: 10px;
-            margin-right: 10px;
-
-            table {
-
-                justify-self: center;
-                width: 50%;
-                overflow: auto;
-
-                td,
-                th {
-                    font-size: 1rem;
-                    padding: 2px 3px;
-                }
-            }
-        }
+@media (max-width: 380px) {
+    .sortAside {
+       height: 60vh;
+       margin-top: 0px !important;
     }
 }

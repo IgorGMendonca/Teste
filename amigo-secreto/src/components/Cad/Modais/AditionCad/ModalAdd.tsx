@@ -69,13 +69,19 @@ export function ModalAdd() {
                 style={{
                     overlay: {
                         backgroundColor: 'rgba(0, 0, 0, 0.438)',
+                        display: 'flex',
+                        alignSelf: 'center',
+                        justifyContent: 'center',
                     },
                     content: {
                         backgroundColor: '#f1f1f1',
-                        marginLeft: '600px',
-                        marginTop: '150px',
-                        width: '30%',
-                        height: '50%',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: '10%',
+                        width: '80%',
+                        maxWidth: '600px',
+                        minHeight: '50%',
+                        maxHeight: '55%',
                     },
                 }}
             >

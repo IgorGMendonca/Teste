@@ -95,6 +95,12 @@
     }
 }
 
+@media (min-width: 1380px) {
+  .divAddModal {
+    left: -200px;
+  }
+}
+
 @media (max-width: 768px) {
     .homeAside {
       grid-template-columns: 1fr;
