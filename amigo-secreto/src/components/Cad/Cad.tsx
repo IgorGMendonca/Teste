@@ -54,7 +54,7 @@ export function Cad() {
 
                 <div className='newCad'>
                     <h1>Novo Participante</h1>
-                    <PlusCircle className='addPerson' onClick={handleAddModal} size={24} color="#ffff" />
+                    <PlusCircle className='addPerson' onClick={handleAddModal} size={24} color="#F4AF33" />
                 </div>
 
                 <table >
@@ -72,8 +72,8 @@ export function Cad() {
                                     <td>{data.name}</td>
                                     <td>{data.email}</td>
                                     <td>
-                                        <PencilSimple size={24} onClick={() => handleEditModal(data._id, data.name, data.email)} className='pencilSimple' color="#d5a234" alt='Alterar' />
-                                        <TrashSimple size={24} className='trashSimple' onClick={() => handleExcludeModal(data._id)} color="#d54434" alt='Excluir' />
+                                        <PencilSimple size={24} onClick={() => handleEditModal(data._id, data.name, data.email)} className='pencilSimple' color="#d5a234" alt='Alterar' weight='fill' />
+                                        <TrashSimple size={24} className='trashSimple' onClick={() => handleExcludeModal(data._id)} color="#d54434" alt='Excluir' weight='fill' />
                                     </td>
                                 </tr>
                             </tbody>

@@ -15,15 +15,15 @@ export function Header() {
 
             <nav>
                 <NavLink to='/home'>
-                    <House className='house' size={24} color="#ffff" weight="bold" alt='Home' />
+                    <House className='house' size={26} color="rgb(60, 60, 202)" weight="bold" alt='Home' />
                 </NavLink>
 
                 <NavLink to='/cad'>
-                    <AddressBook className='tag' size={24} color="#ffff" weight="bold" alt='Cadastro' />
+                    <AddressBook className='tag' size={26} color="rgb(60, 60, 202)" weight="bold" alt='Cadastro' />
                 </NavLink>
 
                 <NavLink to='/sort'>
-                    <Tag className='addressbook' size={24} color="#ffff" weight="bold" alt='Sorteio' />
+                    <Tag className='addressbook' size={26} color="rgb(60, 60, 202)" weight="bold" alt='Sorteio' />
                 </NavLink>
             </nav>
         </header>

@@ -7,9 +7,9 @@ header {
     align-items: center;
 
     border: none;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 4%, rgba(65, 39, 119, 1) 37%, rgba(39, 85, 119, 1) 84%);
     border-bottom: 2px solid rgba(194, 186, 196, .25);
+
+    background-color: #F5F5F5;
 
     aside {
         height: 100%;
@@ -24,7 +24,7 @@ header {
         h1 {
             font-family: 'Edu NSW ACT Foundation', cursive;
             font-size: 2.5rem;
-            color: #ffff;
+            color: rgb(60, 60, 202);
         }
 
     }

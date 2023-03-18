@@ -12,7 +12,7 @@ export function Home() {
                 <hr />
                 <h2>Aqui você pode tirar seu amigo secreto sem complicações</h2>
                 <aside>
-                    <Gift className='iconGift' size={84} color="#6685c2" />
+                    <Gift className='iconGift' size={84} color="#F4AF33" />
                     <h3>Sorteie aqui sua lista de amigos secretos!</h3>
                 </aside>
 
