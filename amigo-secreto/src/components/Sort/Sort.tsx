@@ -24,8 +24,6 @@ interface SortResult {
 }
 
 export function Sort() {
-    const encoder = new TextEncoder()
-
     const [showTable, setShowTable] = useState(false)
     const [pessoas, setPessoas] = useState<Pessoa[]>([])
 
@@ -71,7 +69,6 @@ export function Sort() {
 
             emailjs.send(serviceId, templateId, templateParams, userId)
                 .then((response) => {
-                    console.log(name, sorteado.name, email)
                     console.log('SUCCESS!', response.status, response.text)
                 })
                 .catch((error) => {
