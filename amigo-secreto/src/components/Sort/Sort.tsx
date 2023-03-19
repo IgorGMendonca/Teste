@@ -70,6 +70,7 @@ export function Sort() {
             emailjs.send(serviceId, templateId, templateParams, userId)
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text)
+                    alert('E-mail enviado com sucesso!')
                 })
                 .catch((error) => {
                     console.log('FAILED...', error)
